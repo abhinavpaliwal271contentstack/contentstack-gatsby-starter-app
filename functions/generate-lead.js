@@ -17,9 +17,9 @@ export default async function handler(req, res) {
   try {
     const data = req.body;
     await addNewLead(data);
-    return res.status(201);
+    res.status(201);
   } catch (error) {
-    return res.status(400).json({ error: 'Invalid JSON in request body' });
+    res.status(400).json({ error: 'Invalid JSON in request body' });
   }
 }
 
