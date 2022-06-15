@@ -9,7 +9,7 @@ const ContactUsForm = () => {
   const handleSubmit = async (e:any ) => {
     e.preventDefault();
     try {
-      const res = await fetch("/contact-us", {
+      const res = await fetch("/generate-lead", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
