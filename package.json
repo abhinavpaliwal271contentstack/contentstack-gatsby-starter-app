@@ -25,6 +25,7 @@
     "gatsby-transformer-sharp": "^4.10.0",
     "html-react-parser": "^1.4.4",
     "moment": "^2.29.1",
+    "mongodb": "^4.7.0",
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
